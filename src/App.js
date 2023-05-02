@@ -7,9 +7,10 @@ import Cart from "./pages/Cart";
 
 const App = () => {
   return <>
-  <Home/>
-  {/* <Product/>
+  {/* <Home/> */}
   <ProductList/>
+  {/* <Product/>
+  
   <Register/>
   <Login/>
   <Cart/> */}
