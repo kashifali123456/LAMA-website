@@ -8,9 +8,9 @@ import Cart from "./pages/Cart";
 const App = () => {
   return <>
   {/* <Home/> */}
-  <ProductList/>
-  {/* <Product/>
   
+   <Product/>
+ {/* <ProductList/>
   <Register/>
   <Login/>
   <Cart/> */}
