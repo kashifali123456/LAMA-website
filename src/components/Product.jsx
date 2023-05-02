@@ -24,6 +24,7 @@ import styled from "styled-components";
     min-width: 280px;
     height: 350px;
     display: flex;
+    overflow: hidden;
     align-items: center;
     justify-content: center;
     background-color: #f5fbfd;
@@ -40,10 +41,11 @@ import styled from "styled-components";
     border-radius: 50%;
     background-color: white;
     position: absolute;
+    
   `;
   
   const Image = styled.img`
-    height: 75%;
+    height: 100%;
     z-index: 2;
   `;
   
@@ -66,8 +68,9 @@ import styled from "styled-components";
   const Product = ({ item }) => {
     return (
       <Container>
-        <Circle />
+        <Circle>
         <Image src={item.img} />
+        </Circle>
         <Info>
           <Icon>
             <ShoppingCartOutlined />

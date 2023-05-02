@@ -12,7 +12,7 @@ const App = () => {
   <ProductList/>
   <Register/>
   <Login/>
-  <Cart/> 
+  <Cart/>  
   </>
 }
 
