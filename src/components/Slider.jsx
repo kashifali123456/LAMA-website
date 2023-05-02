@@ -10,9 +10,9 @@ const Container = styled.div`
   display: flex;
   position: relative;
   overflow: hidden;
- 
+  ${mobile({ display: "none" })}
 `;
-//  ${mobile({ display: "none" })}
+ 
 const Arrow = styled.div`
   width: 50px;
   height: 50px;
