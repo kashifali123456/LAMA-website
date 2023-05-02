@@ -8,10 +8,10 @@ import Cart from "./pages/Cart";
 const App = () => {
   return <>
   {/* <Home/> */}
-  
-   <Product/>
- {/* <ProductList/>
   <Register/>
+  {/* <Product/>
+  <ProductList/>
+ 
   <Login/>
   <Cart/> */}
   </>
